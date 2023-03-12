@@ -1,0 +1,115 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.flip-card {
+   width: 900px;
+   height: 500px;
+   margin: 0 auto;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   perspective: 1000px; 
+}
+
+.flip-card-inner {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+}
+.flip-card:active .flip-card-inner {
+   transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flip-card-back {
+   background-color: #dda15e;
+   color: #bbb;
+   transform: rotateY(180deg);
+}
+
+.flip-card-front > p {
+   color: #fefae0;
+}
+
+.flip-card-back > p {
+   color: #fefae0
+}
+
+.movement {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.movement > button {
+   margin: 15px;
+   color: #fefae0;
+   background-color: #283618;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+.container button {
+   margin-left: 30px;
+   background-color: #283618;
+   color: #fefae0;
+}
+
+form label {
+   font-size: 1.4rem;
+}
+
+input {
+   height: 20px;
+   font-size: 1.4rem;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+#wrong {
+   background-color: lightcoral;
+}
+
+#correct {
+   background-color: lightgreen;
+}
