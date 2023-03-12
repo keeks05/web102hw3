@@ -28,9 +28,8 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-<img src='https://i.imgur.com/ENLQFLu.gif'>
-<img src='https://github.com/keeks05/web102hw3/blob/main/feature.gif' width='500px' height='500px'/>
+<img src='https://i.imgur.com/BowwE20.gif' />
+<img src='https://i.imgur.com/DayoXgK.gif'/>
 <img src="staticscreenshot.png">
 
 <!-- Replace this with whatever GIF tool you used! -->
