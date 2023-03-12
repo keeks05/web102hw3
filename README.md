@@ -29,24 +29,21 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<img src='https://imgur.com/29DkCMn' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='https://github.com/keeks05/web102hw3/blob/main/feature.gif'/>
+<img src='https://i.imgur.com/ENLQFLu.gif'>
+<img src='https://github.com/keeks05/web102hw3/blob/main/feature.gif' width='500px' height='500px'/>
+<img src="staticscreenshot.png">
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+Kap and Imugr
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Using hooks with react forms
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Enrique Xavier Melgoza]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
